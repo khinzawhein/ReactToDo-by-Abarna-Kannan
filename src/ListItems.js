@@ -1,5 +1,6 @@
 import React from 'react';
 import './ListItems.css';
+import FlipMove from 'react-flip-move';
 
 function ListItems(props){
      const items = props.items;
@@ -7,15 +8,27 @@ function ListItems(props){
           {
                return <div className="list" key={item.key}>
                     <p>
-                         {item.text}
-                         <span onClick={() => {props.deleteItem(item.key);}}>
-                              &times;
-                         </span>
+                         <input type="text"
+                              id={item.key}
+                              value={item.text}
+                              onChange={
+                                   (e) => {
+                                        props.setUpdate(e.target.value, item.key)
+                                   }
+                              }
+                         />
+                    <span onClick={() => {props.deleteItem(item.key);}}>
+                         <button>&times;</button>
+                    </span>
                     </p>
                </div>
-          })
+          })   
      return(
-     <div>{listItems}</div>     
+     <div>
+          <FlipMove duration={300} easing="ease-in-out">
+               {listItems}
+          </FlipMove>
+     </div>     
      );
 }
 
