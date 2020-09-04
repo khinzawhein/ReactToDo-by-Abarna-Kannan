@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/khinzawhein/ReactToDo-by-Abarna-Kannan/static/css/main.31f94903.chunk.css",
+    "main.js": "/khinzawhein/ReactToDo-by-Abarna-Kannan/static/js/main.880393b8.chunk.js",
+    "main.js.map": "/khinzawhein/ReactToDo-by-Abarna-Kannan/static/js/main.880393b8.chunk.js.map",
+    "runtime-main.js": "/khinzawhein/ReactToDo-by-Abarna-Kannan/static/js/runtime-main.2a1e59b3.js",
+    "runtime-main.js.map": "/khinzawhein/ReactToDo-by-Abarna-Kannan/static/js/runtime-main.2a1e59b3.js.map",
+    "static/js/2.fe68eac3.chunk.js": "/khinzawhein/ReactToDo-by-Abarna-Kannan/static/js/2.fe68eac3.chunk.js",
+    "static/js/2.fe68eac3.chunk.js.map": "/khinzawhein/ReactToDo-by-Abarna-Kannan/static/js/2.fe68eac3.chunk.js.map",
+    "index.html": "/khinzawhein/ReactToDo-by-Abarna-Kannan/index.html",
+    "precache-manifest.3e22fe431c109a15c931232d648dac20.js": "/khinzawhein/ReactToDo-by-Abarna-Kannan/precache-manifest.3e22fe431c109a15c931232d648dac20.js",
+    "service-worker.js": "/khinzawhein/ReactToDo-by-Abarna-Kannan/service-worker.js",
+    "static/css/main.31f94903.chunk.css.map": "/khinzawhein/ReactToDo-by-Abarna-Kannan/static/css/main.31f94903.chunk.css.map",
+    "static/js/2.fe68eac3.chunk.js.LICENSE.txt": "/khinzawhein/ReactToDo-by-Abarna-Kannan/static/js/2.fe68eac3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a1e59b3.js",
+    "static/js/2.fe68eac3.chunk.js",
+    "static/css/main.31f94903.chunk.css",
+    "static/js/main.880393b8.chunk.js"
+  ]
+}
